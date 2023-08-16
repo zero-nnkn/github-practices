@@ -9,7 +9,7 @@
 
 ## Checklist
 - [ ] I have performed a self-review of my code.
-- [ ] If it is a core feature, I have added thorough tests.
+- [ ] I have added thorough tests if it is a core feature.
 - [ ] There is a reference to the original bug report and related work.
 - [ ] I have commented on my code, particularly in hard-to-understand areas.
 - [ ] The feature is well documented.
