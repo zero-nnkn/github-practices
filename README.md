@@ -34,10 +34,11 @@ Add `chore` and `wip` to basic angular commit types.
 | `wip`      | 🚧 | Working in progress                                           |
 
 ## Pre-commit
-### Base hooks
+### Hooks
+#### Basic hooks
 - [pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks): Some out-of-the-box hooks for pre-commit.
 
-### Python code linter and formatter
+#### Python code linter and formatter
 > We are using ruff in this repo because it can be used to replace most of the other tools.
 
 - [ruff](https://github.com/astral-sh/ruff): Extremely fast Python linter and code formatter that support lint rules from many popular tools like Flake8, isort, etc.
@@ -48,7 +49,10 @@ Add `chore` and `wip` to basic angular commit types.
 - [autoflake](https://github.com/PyCQA/autoflake): Tool to removes unused imports/variables as reported by pyflakes.
 - [pyupgrade](https://github.com/asottile/pyupgrade): Tool to automatically upgrade syntax for newer versions of the language.
 
-## Text/Doc
+#### Text/Doc
 - [doctoc](https://github.com/thlorenz/doctoc): Tool to generates table of contents for markdown files.
-- [markdownlint](https://github.com/markdownlint/markdownlint): A Markdown lint tool.
+- [markdownlint](https://github.com/markdownlint/markdownlint): Markdown lint tool.
 - [codespell](https://github.com/codespell-project/codespell): Tool for code misspellings checking.
+
+### CI
+[pre-commit.ci](https://pre-commit.ci/): GitHub app for pre-commit.
