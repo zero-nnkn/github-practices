@@ -12,7 +12,7 @@ ci:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -30,13 +30,13 @@ repos:
         args: [--autofix, --indent=4, --no-ensure-ascii, --no-sort-keys]
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: "v1.11.2"
+    rev: "v2.3.1"
     hooks:
       - id: mypy
         args: ["--strict", "--ignore-missing-imports"]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.6.6
+    rev: v0.16.6
     hooks:
       # Run the linter
       - id: ruff
@@ -48,7 +48,7 @@ repos:
         types_or: [ python, pyi ]
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.4
+    rev: v2.4.3
     hooks:
       - id: codespell
 
